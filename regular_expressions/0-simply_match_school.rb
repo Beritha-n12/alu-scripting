@@ -3,16 +3,8 @@
 regex = /School/
 input = ARGV[0]
 
-if input.match(regex)
-  puts "School"
+if input.match?(regex)
+  puts "SchoolSchool"
 else
-  puts "No match"
-
-regex = /Sthool/
-input = ARGV[1]
-
-if input.match(regex)
-  puts "Sthool"
-else
-  puts "No match"
+  puts ""
 end
