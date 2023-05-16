@@ -8,4 +8,3 @@ if input =~ regex
   puts "School"
 else
   puts "No match"
-end
