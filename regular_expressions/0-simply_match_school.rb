@@ -6,5 +6,5 @@ input = ARGV[0]
 if input =~ regex
   puts "School"
 else
-  puts "$"
+  puts "No match"
 end
