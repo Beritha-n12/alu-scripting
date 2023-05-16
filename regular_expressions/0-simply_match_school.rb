@@ -1,12 +1,10 @@
 #!/usr/bin/env ruby
 
-# matching school 
 regex = /School/
 input = ARGV[0]
 
-if input =~ regex
+if input.match(regex)
   puts "School"
 else
   puts "No match"
 end
-
