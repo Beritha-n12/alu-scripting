@@ -1,10 +1,7 @@
 #!/usr/bin/env ruby
 
-input = ARGV[0]
+input_string = ARGV[0].to_s
 
-regex = /[A-Z]/
+capital_letters = input_string.scan(/[A-Z]/).join('')
 
-matches = input.scan(regex)
-result = matches.join'')
-
-puts result
+puts capital_letters
